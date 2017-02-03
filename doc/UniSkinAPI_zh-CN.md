@@ -51,7 +51,7 @@ UserProfile代表了一个玩家的信息
       "player_name": {字符串，大小写正确的玩家名},
       "last_update": {整数，玩家最后一次修改个人信息的时间，UNIX时间戳, 秒},
       "model_preference": {字符串数组，按顺序存储玩家需要加载的模型名称},
-      "skins": {模型名称到对应材质UID的字典}
+      "skins": {模型名称到对应材质UID的字典},
       "cape": {披风的UID} (已弃用)
     }
 
@@ -64,9 +64,9 @@ UserProfile代表了一个玩家的信息
       "skins": {
         "slim": "67cbc70720c4666e9a12384d041313c7bb9154630d7647eb1e8fba0c461275c6",
         "default": "6d342582972c5465b5771033ccc19f847a340b76d6131129666299eb2d6ce66e",
-        "cape": "970a71c6a4fc81e83ae22c181703558d9346e0566390f06fb93d09fcc9783799"
+        "cape": "970a71c6a4fc81e83ae22c181703558d9346e0566390f06fb93d09fcc9783799",
         "default_dynamic": "1000,67cbc70720c4666e9a12384d041313c7bb9154630d7647eb1e8fba0c461275c6,6d342582972c5465b5771033ccc19f847a340b76d6131129666299eb2d6ce66e"
-      }
+      },
       "cape": "970a71c6a4fc81e83ae22c181703558d9346e0566390f06fb93d09fcc9783799"
     }
 
